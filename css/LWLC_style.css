@@ -1,0 +1,94 @@
+/**
+ * The CSS file that is loaded when styles are enabled
+ *
+ * @since 0.3
+ * - Added styling for share buttons
+ *
+ * @since 0.1
+ * @author support@beansandpixels.com
+ */
+.LWLC_Container{
+	font:10px/16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	position:relative;
+	overflow:visible;
+}
+	/**
+	 * Styling for the share buttons
+	 *
+	 * @since 0.3
+	 * @author support@beansandpixels.com
+	 */
+	.LWLC_ShareLinks{
+		background-color:#ECE5CE;
+		border:1px solid #000;
+		display:none;
+		position:absolute;
+		top:30px;
+		z-index:99;
+	}
+	.LWLC_ShareLinks li{
+		padding:2px 5px;
+	}
+	.LWLC_ShareLinksTitle{
+		background-color:#705E5C;
+		color:#FFFFFF;
+	}
+	.LWLC_ShareLinksTitle span{
+		float:right;
+	}
+	
+	/**
+	 * Styling for the like counters
+	 *
+	 * @since 0.1
+	 * @author support@beansandpixels.com
+	 */
+	.LWLC_ShareCount{
+		overflow:hidden;
+	}
+	.LWLC_ShareCount li{
+		float:left;
+		margin:2px;
+	}
+	.LWLC_ShareCount a{
+		color:#727272;
+		display:block;
+		padding:28px 0 0 0;
+		position:relative;
+		text-align:center;
+		vertical-align:bottom;
+		width:28px;
+	}
+	.LWLC_twitter a{
+		background:url(../img/LWLC_sprite.png) 0 0 no-repeat;
+	}
+	.LWLC_facebook a{
+		background:url(../img/LWLC_sprite.png) 0 -45px no-repeat;
+	}
+	.LWLC_googleplus a{
+		background:url(../img/LWLC_sprite.png) 0 -90px no-repeat;
+	}
+	.LWLC_linkedin a{
+		background:url(../img/LWLC_sprite.png) 0 -135px no-repeat;
+	}
+	.LWLC_combined a{
+		background:url(../img/LWLC_sprite.png) 0 -180px no-repeat;
+	}
+	.LWLC_twitter a:hover{
+		background:url(../img/LWLC_sprite.png) -30px 0 no-repeat;
+	}
+	.LWLC_facebook a:hover{
+		background:url(../img/LWLC_sprite.png) -30px -45px no-repeat;
+	}
+	.LWLC_googleplus a:hover{
+		background:url(../img/LWLC_sprite.png) -30px -90px no-repeat;
+	}
+	.LWLC_linkedin a:hover{
+		background:url(../img/LWLC_sprite.png) -30px -135px no-repeat;
+	}
+	.LWLC_combined a:hover{
+		background:url(../img/LWLC_sprite.png) -30px -180px no-repeat;
+	}
+	.LWLC_ShareCount a:active{
+		top:2px;
+	}
